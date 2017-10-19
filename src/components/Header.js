@@ -1,12 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = (props) => {
   return (
     <header>
       <div>
-        <h1 className="headerText">Adopt A Family</h1>
+        <Link to='/'>
+          Adopt A Family
+        </Link>
       </div>
-      <hgroup className="headerLinks">
+      <div className="headerLinks">
         <div className="headerMission">
           Mission
         </div>
@@ -14,17 +17,19 @@ const Header = (props) => {
           Our Families
         </div>
         <div className="headerAbout">
-          About us
+          <Link to='/aboutus'>
+            About us
+          </Link>
         </div>
         <div className="headerDonate">
           Donate
         </div>
-        <a href='/' className="headerLogin">
-          <button>
+        <Link to="/registration">
+          <button className='buttonLogin'>
             ADOPT A FAMILY
           </button>
-        </a>
-      </hgroup>
+        </Link>
+      </div>
     </header>
   );
 };
