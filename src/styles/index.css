@@ -1,6 +1,6 @@
 body a {
   color: #000;
-  text-decoration-style: dotted;
+  text-decoration-style: none;
 }
 
 body a:visited {
@@ -15,23 +15,13 @@ header {
   background-color: #363F4B;
   color: #8F959C;
   font-family: 'Open Sans', sans-serif;
-  font-size: .75rem;
+  font-size: 1rem;
+  color: white;
   height: 2em;
   line-height: 1.5rem;
   padding: 4em 2em;
   width: auto;
-}
-
-header a {
-  color: #8F959C;
-}
-
-header a:visited {
-  color: #8F959C;
-}
-
-header a:active {
-  color: #8F959C;
+  text-decoration: none;
 }
 
 header div {
@@ -40,10 +30,34 @@ header div {
 
 .headerText {
   float: left;
+  text-decoration: none;
 }
 
-hgroup {
+.headerLinks {
   float: right;
+
+}
+
+.headerMission {
+  padding: 1.3em;
+}
+
+.headerFamily {
+  padding: 1.3em;
+}
+
+.headerAbout {
+  padding: 1.3em;
+}
+
+.headerDonate {
+  padding: 1.3em;
+}
+
+.buttonLogin {
+  background-color: red;
+  border-radius: 1em;
+  padding: 1em;
 }
 
 footer {
