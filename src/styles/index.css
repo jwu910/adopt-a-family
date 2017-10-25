@@ -11,7 +11,7 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-header {
+header, header a, header a:visited {
   background-color: #363F4B;
   color: #8F959C;
   font-family: 'Open Sans', sans-serif;
@@ -39,6 +39,7 @@ header div {
 }
 
 .headerMission {
+  border-color: red;
   padding: 1.3em;
 }
 
@@ -46,7 +47,7 @@ header div {
   padding: 1.3em;
 }
 
-.headerAbout {
+.headerAbout a {
   padding: 1.3em;
 }
 
