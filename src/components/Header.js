@@ -17,7 +17,7 @@ const Header = (props) => {
           Our Families
         </div>
         <div className="headerAbout">
-          <Link to='/aboutus'>
+          <Link to="/aboutus">
             About us
           </Link>
         </div>
@@ -25,7 +25,7 @@ const Header = (props) => {
           Donate
         </div>
         <Link to="/registration">
-          <button className='buttonLogin'>
+          <button className="buttonLogin">
             ADOPT A FAMILY
           </button>
         </Link>
