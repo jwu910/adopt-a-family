@@ -13,6 +13,17 @@ body {
   }
 }
 
+header {
+  div {
+    display: inline;
+  }
+
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
 footer {
   background-color: #363F4B;
   color: #8F959C;
