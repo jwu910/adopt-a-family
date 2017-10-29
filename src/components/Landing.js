@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 const Landing = (props) => {
   return (
-    <div>
+    <div className="landing-container">
       <h1>Landing page</h1>
       <ul>
         <li>
@@ -28,9 +28,6 @@ const Landing = (props) => {
         </li>
         <li>
           <Link to="/aboutus">Click me for about us</Link>
-        </li>
-        <li>
-          <Link to="/registration"><button>Register</button></Link>
         </li>
       </ul>
     </div>

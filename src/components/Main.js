@@ -15,7 +15,7 @@ import WishlistPublic from './WishlistPublic';
 
 const Main = (props) => {
   return (
-    <div>
+    <div clsasName="adopt-a-family">
       <Header />
       <Switch>
         <Route exact path="/" component={Landing} />

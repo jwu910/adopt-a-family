@@ -48,7 +48,8 @@ class Form extends React.Component {
   }
 
   render() {
-    let isValidated = this.state.emailValidation ? 'emailValid' : 'emailInvalid';
+    let isValidated = this.state.emailValidation ? 'email-valid' : 'email-invalid';
+
     return (
       <div>
         <div className="contact">

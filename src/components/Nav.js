@@ -5,35 +5,36 @@ class Nav extends Component {
 
   render () {
     return (
-      <div>
-        <div>
-          <div className='header-text'>
-            <Link to='/'>
-              Adopt A Family
+      <div className="header-container">
+        <div className="header-site-name col-3">
+          <Link to='/'>
+            Adopt A Family
+          </Link>
+        </div>
+
+        <ul className="header-links col-8">
+          <li className="header-mission">
+            Mission
+          </li>
+          <li className="header-family">
+            Our Families
+          </li>
+          <li className="header-about">
+            <Link to="/aboutus">
+              About us
             </Link>
-          </div>
-          <div className="header-links">
-            <div className="header-mission">
-              Mission
-            </div>
-            <div className="header-family">
-              Our Families
-            </div>
-            <div className="header-about">
-              <Link to="/aboutus">
-                About us
-              </Link>
-            </div>
-            <div className="header-donate">
-              Donate
-            </div>
+          </li>
+          <li className="header-donate">
+            Donate
+          </li>
+          <li>
             <Link to="/registration">
-              <button className="button-login">
+              <button className="btn-register">
                 ADOPT A FAMILY
               </button>
             </Link>
-          </div>
-        </div>
+          </li>
+        </ul>
       </div>
     );
   }
