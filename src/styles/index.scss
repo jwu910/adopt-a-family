@@ -1,6 +1,7 @@
 @import './constants/shared';
 
 body {
+  background-image: url('../../assets/pexels-photo-377058.jpeg');
   font-family: 'Roboto', sans-serif;
 
   a {
@@ -14,14 +15,38 @@ body {
 }
 
 header {
-  div {
-    display: inline;
-  }
+  padding: 3em 2em;
 
   a {
-    color: #000;
-    text-decoration: none;
+    &,
+    &:visited,
+    &:active {
+      color: #FFF;
+      text-decoration: none;
+    }
+
   }
+
+  div {
+    color: #FFF;
+    display: inline;
+    padding-right: 2em;
+  }
+}
+
+.header-text {
+  float: left;
+}
+
+.header-links {
+  float: right;
+}
+
+.button-login {
+  background-color: #F00;
+  border-radius: 1em;
+  color: #FFF;
+  padding: 1em;
 }
 
 footer {
