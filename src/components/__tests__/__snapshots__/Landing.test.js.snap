@@ -1,7 +1,9 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Landing Landing snapshot 1`] = `
-<div>
+<div
+  className="landing-container"
+>
   <h1>
     Landing page
   </h1>
@@ -60,16 +62,6 @@ exports[`Landing Landing snapshot 1`] = `
         onClick={[Function]}
       >
         Click me for about us
-      </a>
-    </li>
-    <li>
-      <a
-        href="/registration"
-        onClick={[Function]}
-      >
-        <button>
-          Register
-        </button>
       </a>
     </li>
   </ul>

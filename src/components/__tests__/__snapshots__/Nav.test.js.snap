@@ -1,57 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Main Main snapshot 1`] = `
-<div>
-  <div>
-    <div
-      className="header-text"
+<div
+  className="header-container"
+>
+  <div
+    className="header-site-name col-3"
+  >
+    <Link
+      replace={false}
+      to="/"
+    >
+      Adopt A Family
+    </Link>
+  </div>
+  <ul
+    className="header-links col-8"
+  >
+    <li
+      className="header-mission"
+    >
+      Mission
+    </li>
+    <li
+      className="header-family"
+    >
+      Our Families
+    </li>
+    <li
+      className="header-about"
     >
       <Link
         replace={false}
-        to="/"
+        to="/aboutus"
       >
-        Adopt A Family
+        About us
       </Link>
-    </div>
-    <div
-      className="header-links"
+    </li>
+    <li
+      className="header-donate"
     >
-      <div
-        className="header-mission"
-      >
-        Mission
-      </div>
-      <div
-        className="header-family"
-      >
-        Our Families
-      </div>
-      <div
-        className="header-about"
-      >
-        <Link
-          replace={false}
-          to="/aboutus"
-        >
-          About us
-        </Link>
-      </div>
-      <div
-        className="header-donate"
-      >
-        Donate
-      </div>
+      Donate
+    </li>
+    <li>
       <Link
         replace={false}
         to="/registration"
       >
         <button
-          className="button-login"
+          className="btn-register"
         >
           ADOPT A FAMILY
         </button>
       </Link>
-    </div>
-  </div>
+    </li>
+  </ul>
 </div>
 `;

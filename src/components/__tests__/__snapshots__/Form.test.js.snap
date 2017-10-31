@@ -122,7 +122,7 @@ exports[`Form Form snapshot 1`] = `
         Confirm Email
       </span>
       <input
-        className="emailInvalid"
+        className="email-invalid"
         maxLength={undefined}
         name="confirmEmail"
         onChange={[Function]}

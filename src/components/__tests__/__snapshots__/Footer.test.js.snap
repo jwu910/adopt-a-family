@@ -2,21 +2,21 @@
 
 exports[`Footer Footer snapshot 1`] = `
 <footer>
-  <div
-    className="footerText"
+  <ul
+    className="footer-text"
   >
-    <div
-      className="footerCopyright"
+    <li
+      className="footer-copyright"
     >
       © 2017 Adopt A Family
-    </div>
-    <div
-      className="footerSpacer"
+    </li>
+    <li
+      className="footer-spacer"
     >
        | 
-    </div>
-    <div
-      className="footerPrivacy"
+    </li>
+    <li
+      className="footer-privacy"
     >
       <a
         href="http://www.theuselessweb.com/"
@@ -25,9 +25,9 @@ exports[`Footer Footer snapshot 1`] = `
       >
         Privacy Policy
       </a>
-    </div>
-    <div
-      className="footerContact"
+    </li>
+    <li
+      className="cooter-contact"
     >
       <a
         href="http://www.theuselessweb.com/"
@@ -36,41 +36,47 @@ exports[`Footer Footer snapshot 1`] = `
       >
         Contact Us
       </a>
-    </div>
-  </div>
-  <div
-    className="footerIcons"
+    </li>
+  </ul>
+  <ul
+    className="footer-icons"
   >
-    <a
-      className="social-icon"
-      href="https://github.com/5-gwoap/adopt-a-family"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      <i
-        className="fa fa-github fa-2x"
-      />
-    </a>
-    <a
-      className="social-icon"
-      href="mailto:5gwoap@gmail.com"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      <i
-        className="fa fa-envelope fa-2x"
-      />
-    </a>
-    <a
-      className="social-icon"
-      href="https://github.com/5-gwoap"
-      rel="noopener noreferrer"
-      target="_blank"
-    >
-      <i
-        className=" fa fa-user-circle fa-2x"
-      />
-    </a>
-  </div>
+    <li>
+      <a
+        className="social-icon"
+        href="https://github.com/5-gwoap/adopt-a-family"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fa fa-github fa-2x"
+        />
+      </a>
+    </li>
+    <li>
+      <a
+        className="social-icon"
+        href="mailto:5gwoap@gmail.com"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <i
+          className="fa fa-envelope fa-2x"
+        />
+      </a>
+    </li>
+    <li>
+      <a
+        className="social-icon"
+        href="https://github.com/5-gwoap"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        <i
+          className=" fa fa-user-circle fa-2x"
+        />
+      </a>
+    </li>
+  </ul>
 </footer>
 `;
