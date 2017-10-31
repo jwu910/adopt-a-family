@@ -21,125 +21,125 @@
   }
 }
 
-@media screen and (min-width: 968px) {
+body {
+  background-attachment: fixed;
+  background-color: $primary2-color;
+  background-image: url('../../assets/AAF-BG.jpeg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: $primary-text-color;
+  font-family: 'Roboto', sans-serif, medium;
 
-  body {
-    background-attachment: fixed;
-    background-color: $primary2-color;
-    background-image: url('../../assets/AAF-BG.jpeg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  a {
     color: $primary-text-color;
-    font-family: 'Roboto', sans-serif, medium;
+    text-decoration: none;
 
-    a {
+    &:active,
+    &:visited {
       color: $primary-text-color;
-      text-decoration: none;
-
-      &:active,
-      &:visited {
-        color: $primary-text-color;
-      }
     }
   }
+}
 
-  .btn-register {
-    background-color: $btn-bg;
-    border-radius: 8px;
-    border-width: 0;
-    color: $primary-text-color;
-    cursor: pointer;
-    font-size: 1.15rem;
-    font-weight: bold;
-    padding: 16px 32px;
+.btn-register {
+  background-color: $btn-bg;
+  border-radius: .5em;
+  border-width: 0;
+  color: $primary-text-color;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 1em 2em;
+}
+
+.header-container {
+  // background-color: $bar-color; // Temporary color
+  font-size: 1em;
+  height: auto;
+  margin: 1em 0;
+  padding: 1em;
+
+  div {
+    display: inline-flex;
   }
 
-  .header-container {
-    // background-color: $bar-color; // Temporary color
-    font-size: 1.2em;
-    height: auto;
-    margin: 16px 0;
-    padding: 16px;
-
-    div {
-      display: inline-flex;
-    }
-
-    .header-links {
-      float: right;
-      margin: 0;
-      padding: 0;
-      text-align: right;
-      width: auto;
-
-      li {
-        display: inline-flex;
-        list-style: none;
-        padding: 0 16px;
-
-      }
-    }
-
-    .header-site-name {
-      font-weight: bold;
-      height: 48px;
-      max-width: 176px;
-      padding: 0 24px;
-
-      a {
-        margin: auto;
-        width: auto;
-      }
-    }
-  }
-
-  footer {
-    background-color: $bar-color;
-    bottom: 0;
-    color: $primary-text-color;
-    font-size: .75rem;
-    left: 0;
-    line-height: 1.5rem;
-    padding: 24px 0;
-    position: fixed;
-    width: 100%;
-
-    a {
-      &,
-      &:visited,
-      &:active {
-        color: $primary-text-color;
-      }
-    }
-
-    .footer-text {
-      float: left;
-    }
+  .header-links {
+    float: right;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    width: auto;
 
     li {
-      display: inline;
+      display: inline-flex;
+      font-size: 1rem;
+      line-height: 1.5rem;
       list-style: none;
-      padding: 0 8px;
-    }
-
-    .footer-icons {
-      float: right;
-      padding-right: 24px;
-
-      .fa {
-        color: #FFF;
-        display: inline;
-        padding: 0 16px;
-      }
+      padding: 0 1em;
     }
   }
 
-  .email-valid {
-    border-color: #0F0;
+  .header-site-name {
+    height: 3em;
+    max-width: 9em;
+    padding: 0 1.5em;
+
+    a {
+      font-size: 1.2rem;
+      font-weight: bold;
+      line-height: 1.5rem;
+      margin: auto;
+      width: auto;
+    }
+  }
+}
+
+footer {
+  background-color: $bar-color;
+  bottom: 0;
+  color: $primary-text-color;
+  font-size: .75rem;
+  left: 0;
+  line-height: 1.5rem;
+  padding: 2em 0;
+  position: fixed;
+  width: 100%;
+
+  a {
+    &,
+    &:visited,
+    &:active {
+      color: $primary-text-color;
+    }
   }
 
-  .email-invalid {
-    border-color: #F00;
+  .footer-text {
+    float: left;
   }
+
+  li {
+    display: inline;
+    list-style: none;
+    padding: 0 1em;
+  }
+
+  .footer-icons {
+    float: right;
+    padding-right: 1em;
+
+    .fa {
+      color: #FFF;
+      display: inline;
+      padding: 0 .5em;
+    }
+  }
+}
+
+.email-valid {
+  border-color: #0F0;
+}
+
+.email-invalid {
+  border-color: #F00;
 }
