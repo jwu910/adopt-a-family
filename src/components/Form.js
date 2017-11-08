@@ -90,7 +90,7 @@ class Form extends React.Component {
             <span className="contact-label">
               Account Type:
             </span>
-            <Select name="accountType"/><br />
+            <Select name="accountType" value="organizer" /><br />
             <span className="contact-label">
               Email:
             </span>
