@@ -6,8 +6,9 @@
   "scripts": {
     "build": "react-scripts build",
     "build-css": "node-sass-chokidar src/ -o src/devBuild",
+    "dev": "cross-env NODE_ENV=development nodemon server/app.js",
+    "serve": "cross-env NODE_ENV=production node server/app.js",
     "sass-lint": "sass-lint ./src --config .sass-lint.yml 'src/**/*.scss' --verbose --ignore 'node_modules/**/*'",
-    "server": "nodemon server/app.js",
     "start": "concurrently --prefix \"[AAF]\" \"npm run watch-css\" \"npm run server\" \"react-scripts start\"",
     "test": "eslint ./ && npm run sass-lint && react-scripts test --env=jsdom",
     "watch-css": "npm run build-css && node-sass-chokidar src/ -o src/devBuild/ --watch --recursive"
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "concurrently": "^3.5.0",
+    "cross-env": "^5.1.1",
     "enzyme": "^3.0.0",
     "enzyme-adapter-react-16": "^1.0.0",
     "enzyme-to-json": "^3.0.1",
