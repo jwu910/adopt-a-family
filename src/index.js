@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router } from  'react-router-dom';
 import App from './components/App';
-import './devBuild/styles/index.css';
+import './styles/dist/main.css';
 
 ReactDOM.render(
   <Router>
